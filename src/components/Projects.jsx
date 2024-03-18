@@ -8,7 +8,12 @@ export const Projects = () => {
     useEffect(() => {
       const fetchData = async () => {
         try {
-          const response = await fetch('https://api.github.com/users/MarinaElenaVlad/repos');
+          const accessToken = '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'; 
+          const response = await fetch('https://api.github.com/users/MarinaElenaVlad/repos', {
+            headers: {
+              Authorization: `token ${accessToken}`
+            }
+          });
           const data = await response.json();
           const projectsWithDetails = await Promise.all(data.map(project => getProjectDetails(project)));
           setProjects(projectsWithDetails);
@@ -16,7 +21,7 @@ export const Projects = () => {
           console.error('Error fetching data from GitHub:', error);
         }
       };
-  
+
       fetchData();
     }, []);
   
