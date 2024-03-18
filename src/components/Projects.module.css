@@ -9,12 +9,12 @@
 
 .title {
   color: var(--color-text);
-  font-size: 3.2vw; /* Cambiado el tamaño de la fuente a unidades relativas */
+  font-size: 35px;
   font-weight: 700;
-  letter-spacing: 0.1em; /* Cambiado el espaciado de letra a unidades relativas */
+  letter-spacing: 1.75px;
   text-transform: uppercase;
-  margin-bottom: 4vw; /* Cambiado el margen inferior a unidades relativas */
-  margin: auto;
+  align-self: flex-start;
+  margin-bottom: 14px;
 }
 
 .project {

@@ -1,0 +1,23 @@
+[
+    {
+        "title": "marina-portfolio",
+        "description": "",
+        "imageSrc": "projects/image1.png",
+        "url": "https://github.com/MarinaElenaVlad/marina-portfolio",
+        "technologies": ["Javascript", "CSS", "HTML"]
+    },
+    {
+        "title": "marina-portfolio",
+        "description": "",
+        "imageSrc": "projects/image1.png",
+        "url": "https://github.com/MarinaElenaVlad/marina-portfolio",
+        "technologies": ["Javascript", "CSS", "HTML"]
+    },
+    {
+        "title": "marina-portfolio",
+        "description": "",
+        "imageSrc": "projects/image1.png",
+        "url": "https://github.com/MarinaElenaVlad/marina-portfolio",
+        "technologies": ["Javascript", "CSS", "HTML"]
+    }
+]
