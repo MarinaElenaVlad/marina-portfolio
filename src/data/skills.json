@@ -1,0 +1,39 @@
+[
+    {
+        "title" : "HTML",
+        "imageSrc": "skills/html.png"
+    },
+    {
+        "title" : "CSS",
+        "imageSrc": "skills/css.png"
+    },
+    {
+        "title" : "React",
+        "imageSrc": "skills/react.png"
+    },
+    {
+        "title" : "MongoDB",
+        "imageSrc": "skills/mongodb.png"
+    },
+    {
+        "title" : "Python",
+        "imageSrc": "skills/python.png"
+    },
+    {
+        "title" : "Java",
+        "imageSrc": "skills/java.png"
+    },
+    {
+        "title" : "Spring",
+        "imageSrc": "skills/spring.png"
+    },
+    {
+        "title" : "Javascript",
+        "imageSrc": "skills/javascript.png"
+    },
+    {
+        "title" : "Hibernate",
+        "imageSrc": "skills/hibernate.png"
+    }
+
+]

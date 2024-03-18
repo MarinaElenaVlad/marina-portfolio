@@ -1,0 +1,11 @@
+
+[
+    {
+        "role": "Programador Dual",
+        "organisation": "Integra tecnología",
+        "startDate": "14/09/2023",
+        "endDate": "21/06/2024",
+        "experiencies": ["Trabajando con .Net", "Trabajando con C#"],
+        "imageSrc": "history/integra.png" 
+    }
+    ]

@@ -1,0 +1,10 @@
+[
+    {
+        "title": "Proyecto A",
+        "imageSrc": "Integra tecnología",
+        "description": "14/09/2023",
+        "skills": "21/06/2024",
+        "demo": ["Trabajando con .Net", "Trabajando con C#"],
+        "source": "history/integra.png" 
+    }
+    ]
