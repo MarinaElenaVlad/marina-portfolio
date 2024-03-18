@@ -33,7 +33,7 @@ export const NavBar = () => {
                     <a href='#projects'>Proyectos</a>
                 </li>
                 <li>
-                    <a href='#about'>Contact</a>
+                    <a href='#contact'>Contacto</a>
                 </li>
             </ul>
         </div>

@@ -1,0 +1,105 @@
+@import "../vars.css";
+
+.container {
+  max-width: 1200px;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 73px;   
+  margin-top: 0;
+  font-size: 40px; 
+}
+
+.title {
+  color: var(--color-text);
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: 1.75px;
+  text-transform: uppercase;
+  align-self: flex-start;
+  margin-bottom: 24px;
+}
+
+.project {
+  display: flex; 
+  margin-bottom: 40px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  color: var(--color-text);
+}
+
+.project img {
+  width: 500px; 
+  height: auto;
+  margin-right: 20px;
+  border-radius: 5px; 
+}
+
+.project-content {
+  flex: 1;
+  font-size: 20px; /* Adjust the font size here as desired */
+}
+
+.project-content h2 {
+  margin: 0; 
+}
+
+.project-content p {
+  margin: 10px 0; 
+}
+
+.project-content a {
+  color: #007bff;
+}
+
+@media screen and (max-width: 830px) {
+  .container {
+    font-size: 30px; 
+  }
+
+  .project img {
+    width: 100%; /* Ajusta el ancho de la imagen para dispositivos móviles */
+    margin-right: 0; 
+    margin-bottom: 20px; 
+  }
+}
+
+.form-container {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.form-container label {
+    display: block;
+    margin-bottom: 5px;
+    color: var(--color-text);
+
+}
+
+.form-container input[type="text"],
+.form-container input[type="email"],
+.form-container textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    background-color: lightgray;
+    border-radius: 4px;
+}
+
+.form-container textarea {
+    height: 150px;
+}
+
+.form-container button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.form-container button:hover {
+    background-color: #0056b3;
+}

@@ -1,5 +1,6 @@
 import styles from './App.module.css';
 import { AboutMe } from './components/AboutMe';
+import ContactForm from './components/ContactForm';
 import { Experience } from './components/Experience';
 import { MoreAboutMe } from './components/MoreAboutMe';
 import { NavBar } from './components/NavBar';
@@ -13,7 +14,8 @@ function App() {
       <AboutMe />
       <MoreAboutMe />
       <Experience />
-      {/* < Projects /> */}
+      <Projects />
+      <ContactForm />
     </div>
   )
 }
