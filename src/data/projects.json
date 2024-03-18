@@ -7,17 +7,10 @@
         "technologies": ["Javascript", "CSS", "HTML"]
     },
     {
-        "title": "marina-portfolio",
-        "description": "",
-        "imageSrc": "projects/image1.png",
-        "url": "https://github.com/MarinaElenaVlad/marina-portfolio",
-        "technologies": ["Javascript", "CSS", "HTML"]
-    },
-    {
-        "title": "marina-portfolio",
-        "description": "",
-        "imageSrc": "projects/image1.png",
-        "url": "https://github.com/MarinaElenaVlad/marina-portfolio",
-        "technologies": ["Javascript", "CSS", "HTML"]
+        "title": "ProyectoFinalDamMarina",
+        "description": "Repositorio del proyecto final de Dam (2022-2023)",
+        "imageSrc": "projects/image2.png",
+        "url": "https://github.com/MarinaElenaVlad/ProyectoFinalDamMarina",
+        "technologies": ["Java"]
     }
 ]

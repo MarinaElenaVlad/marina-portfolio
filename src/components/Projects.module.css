@@ -1,83 +1,77 @@
-@import "../vars.css";
-
 .container {
   max-width: 100%; /* Cambiado el ancho máximo para ajustarse a cualquier tamaño de pantalla */
   margin: 0 auto; /* Centrado horizontalmente */
   padding: 3vw; /* Cambiado el relleno a unidades relativas */
-  font-size: 3vw; /* Cambiado el tamaño de la fuente a unidades relativas */
 }
 
 .title {
   color: var(--color-text);
-  font-size: 35px;
+  font-size: 2.5vw; /* Cambiado el tamaño de la fuente a unidades relativas */
   font-weight: 700;
   letter-spacing: 1.75px;
   text-transform: uppercase;
   align-self: flex-start;
-  margin-bottom: 14px;
+  margin-bottom: 2vw; /* Cambiado el margen inferior a unidades relativas */
 }
 
 .project {
-  display: flex; 
-  width: 60%;
-  flex-direction: row; /* Cambiado el diseño a columna para dispositivos móviles */
+  display: flex;
+  flex-direction: column; /* Cambiado el diseño a columna para dispositivos móviles */
   padding: 2vw; /* Cambiado el relleno a unidades relativas */
   border: 0.2vw solid #ccc; /* Cambiado el ancho del borde a unidades relativas */
   border-radius: 2vw; /* Cambiado el radio del borde a unidades relativas */
   color: var(--color-text);
-  margin: auto;
+  margin-bottom: 3vw; /* Cambiado el margen inferior a unidades relativas */
+  width: 50%;
 }
 
 .project img {
   width: 50%; /* Cambiado el tamaño de la imagen para ocupar todo el ancho del contenedor */
   height: auto;
-  margin-bottom: 4vw; /* Cambiado el margen inferior a unidades relativas */
+  margin-bottom: 2vw; /* Cambiado el margen inferior a unidades relativas */
   border-radius: 1vw; /* Cambiado el radio del borde a unidades relativas */
-  margin-right: 20px;
 }
 
 .project-content {
-  font-size: 2.5vw; /* Cambiado el tamaño de la fuente a unidades relativas */
+  font-size: 2vw; /* Cambiado el tamaño de la fuente a unidades relativas */
 }
 
 .project-content h2 {
   margin: 0; 
-  font-size: 3vw; /* Cambiado el tamaño de la fuente a unidades relativas */
+  font-size: 2.5vw; /* Cambiado el tamaño de la fuente a unidades relativas */
 }
 
 .project-content p {
-  margin: 2vw 0; /* Cambiado el margen a unidades relativas */
-  font-size: 2.5vw; /* Cambiado el tamaño de la fuente a unidades relativas */
+  margin: 1vw 0; /* Cambiado el margen a unidades relativas */
+  font-size: 2vw; /* Cambiado el tamaño de la fuente a unidades relativas */
 }
 
 .project-content a {
   color: #007bff;
-  font-size: 2.5vw; /* Cambiado el tamaño de la fuente a unidades relativas */
+  font-size: 2vw; /* Cambiado el tamaño de la fuente a unidades relativas */
 }
 
-@media screen and (max-width: 830px) {
+@media screen and (max-width: 768px) {
   .title {
-    font-size: 5vw; /* Ajustado el tamaño de la fuente para dispositivos móviles */
-    margin-bottom: 8vw; /* Ajustado el margen inferior para dispositivos móviles */
+    font-size: 4vw; /* Ajustado el tamaño de la fuente para dispositivos móviles */
+    margin-bottom: 4vw; /* Ajustado el margen inferior para dispositivos móviles */
   }
 
   .project {
-    margin-bottom: 8vw; /* Ajustado el margen inferior para dispositivos móviles */
-    padding: 6vw; /* Ajustado el relleno para dispositivos móviles */
-    border-radius: 4vw; /* Ajustado el radio del borde para dispositivos móviles */
+    padding: 4vw; /* Ajustado el relleno para dispositivos móviles */
+    border-radius: 3vw; /* Ajustado el radio del borde para dispositivos móviles */
   }
 
   .project img {
-    margin-bottom: 6vw; /* Ajustado el margen inferior para dispositivos móviles */
-    border-radius: 2vw; /* Ajustado el radio del borde para dispositivos móviles */
+    margin-bottom: 3vw; /* Ajustado el margen inferior para dispositivos móviles */
+    border-radius: 1.5vw; /* Ajustado el radio del borde para dispositivos móviles */
   }
 
   .project-content {
-    font-size: 4vw; /* Ajustado el tamaño de la fuente para dispositivos móviles */
+    font-size: 3vw; /* Ajustado el tamaño de la fuente para dispositivos móviles */
   }
 
   .project-content h2 {
-    font-size: 4.5vw; /* Ajustado el tamaño de la fuente para dispositivos móviles */
+    font-size: 3.5vw; /* Ajustado el tamaño de la fuente para dispositivos móviles */
   }
-
 }
