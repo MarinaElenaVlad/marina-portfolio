@@ -56,7 +56,7 @@
   font-size: 2vw; /* Cambiado el tamaño de la fuente a unidades relativas */
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 830px) {
   .title {
     font-size: 4vw; /* Ajustado el tamaño de la fuente para dispositivos móviles */
     margin-bottom: 4vw; /* Ajustado el margen inferior para dispositivos móviles */
