@@ -3,14 +3,14 @@
         "title": "marina-portfolio",
         "description": "",
         "imageSrc": "projects/image1.png",
-        "url": "https://github.com/MarinaElenaVlad/marina-portfolio",
+        "url": "https://github.com/MarinaElenaVlad/marina-portfolio/blob/master/README.md",
         "technologies": ["Javascript", "CSS", "HTML"]
     },
     {
         "title": "ProyectoFinalDamMarina",
         "description": "Repositorio del proyecto final de Dam (2022-2023)",
         "imageSrc": "projects/image2.png",
-        "url": "https://github.com/MarinaElenaVlad/ProyectoFinalDamMarina",
+        "url": "https://github.com/MarinaElenaVlad/ProyectoFinalDamMarina/blob/main/README.md",
         "technologies": ["Java"]
     }
 ]
