@@ -2,6 +2,10 @@
   max-width: 100%; /* Cambiado el ancho máximo para ajustarse a cualquier tamaño de pantalla */
   margin: 0 auto; /* Centrado horizontalmente */
   padding: 3vw; /* Cambiado el relleno a unidades relativas */
+  display: flex; /* Agregado para utilizar flexbox */
+  flex-direction: column; /* Cambiado el diseño a columna */
+  justify-content: center; /* Centrado verticalmente */
+  align-items: center; /* Centrado horizontalmente */
 }
 
 .title {
@@ -10,9 +14,10 @@
   font-weight: 700;
   letter-spacing: 1.75px;
   text-transform: uppercase;
-  align-self: flex-start;
   margin-bottom: 2vw; /* Cambiado el margen inferior a unidades relativas */
+  text-align: center; /* Centrado horizontalmente */
 }
+
 
 .project {
   display: flex;
